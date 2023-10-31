@@ -24,7 +24,7 @@
 
 - 07:30 PM: Added three new projects class library to the application AryaBooks.DataAccess, AryaBooks.Models, AryaBooks.Utility. Then copied the Data folder and pasted to AryaBooks.DataAccess project, and deleted the original one
 
-- 80:30 PM: Saved the whole project uploaded it to onedrive and went home as it wss really late.
+- 08:30 PM: Saved the whole project uploaded it to onedrive and went home as it wss really late.
 
 - Start Date: 28th October 2023
 - 10:00 AM: Sat as the same computer as yesterday so the project was still on the desktop opened the project ran it and it was still running perfectly.
