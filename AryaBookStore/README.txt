@@ -1,10 +1,10 @@
 # Assignment 2 -  Book Store
 *Author: Arya Patel*
 *Student ID: 0823713*
-*Project Start Date: 27th October 2023*﻿
+*Project Start Date: 26th October 2023*﻿
 
 **Create README (Project Initialization)**
-- Start Date: 27th October 2023
+- Start Date: 26th October 2023
 - 12:00 AM: The project was initiated by creating the README, serving as the project's initial and foundational document.
 
 - 01:00 PM: Setting up the project in which i created a new project in ASP.NET Core Webapp template in visual studio 2019 named it AryaBookStore in ASP.NET Core 5.0 then enabled razor run time compilation
@@ -26,7 +26,7 @@
 
 - 08:30 PM: Saved the whole project uploaded it to onedrive and went home as it wss really late.
 
-- Start Date: 28th October 2023
+- Start Date: 27th October 2023
 - 10:00 AM: Sat as the same computer as yesterday so the project was still on the desktop opened the project ran it and it was still running perfectly.
 
 - 10:30 AM: Installed  Microsoft.EntityFrameworkCore. Relational and Core.Sq|Server packages and deleted the migrations folder from the data folder then installed the Install NuGet package: Identity.EntityFrameworkCore then modified the namespace to reflect  the project and deleted the CLass1.cs file from all the three projects. Next was building the project.
