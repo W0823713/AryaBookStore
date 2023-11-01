@@ -1,3 +1,5 @@
+using Abp.Domain.Uow;
+using AryaBooks.DataAccess.Repository;
 using AryaBookStore.DataAccess.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -12,6 +14,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using IUnitOfWork = AryaBooks.DataAccess.Repository.IRepository.IUnitOfWork;
+
 
 namespace AryaBookStore
 {
@@ -34,6 +38,7 @@ namespace AryaBookStore
 
             services.AddDefaultIdentity<IdentityUser>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
+            services.AddScoped<IUnitOfWork, UnitOfWork>();
             services.AddControllersWithViews();
         }
 

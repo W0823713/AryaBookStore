@@ -4,7 +4,7 @@ using System.Text;
 
 namespace AryaBooks.DataAccess.Repository.IRepository
 {
-    interface IUnitOfWork
+   public  interface IUnitOfWork
     {
         ICategoryRepository Category { get;  }
         ISP_Call SP_Call { get; }
