@@ -88,9 +88,11 @@ ASSIGNMENT-2 Part-II
 - 06:55 PM: Updated the database checked everything and was ready for commit to git
 
 
+                              DONE FOR THE DAY
 
 
-
+- Start Date: 1st November 2023
+- 05:57 PM: 
 
 
 
