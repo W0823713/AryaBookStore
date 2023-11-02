@@ -92,7 +92,9 @@ ASSIGNMENT-2 Part-II
 
 
 - Start Date: 1st November 2023
-- 05:57 PM: ok
+- 05:57 PM: Added a new folder named it repository, added a new iteam of type interface to the folder and named it IRepository.cs, Implemented the class that implemented the repository.
+
+
 
 
 
