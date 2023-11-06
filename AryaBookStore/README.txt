@@ -99,20 +99,43 @@ ASSIGNMENT-2 Part-II
 
 - 06:10 PM: Created individual repos for cateogry Category.cs and ICategory.cs, Later modified them.
 
+- 06:30 PM: Built the application and as there were no errors i pushed it directly to github.
+
+- 06:40 PM: Added a new interface in the irepository folder named it ISP_Call.cs, then installed the NuGet Package for dapper and implemented it with the ew class in the repository folder.
+
+- 06:50 PM: Added a new class SP_Call.csin the repository folder selected the appropriate using statement and implemented the ISP_Call interface.
+
+- 06:55 PM: Added a connection to the database and updated the implementation of ISP_Call interface, Then added wrapper for Unit of work.
+
+- 07:00 PM: Added anew interface IUnitOfWork toIRepository and updated the code, Then implemeted this inside the IUnitOfWork by adding a class.
+To make it accessible by the project i registered it in Startup.cs 
+
+- 07:30 PM: Built the project there were no errors and then pushed to github.
+
+- 07:32 PM: First of all closed all the tabs there were open and there were a lot of them and then added a new mvc controller named it ategoryController.cs, Then modified the code to use the IUnitOfWork from .DataAccess project and the IRepository folder.
+
+- 07:45 PM: Added a new folder in the Views with the same name as controller, Added a new index view to the folder and modified with generic html code from the provided files.
+
+- 07:55 PM: Moded the category link to the content Management dropdown then ran the application to view the changes, Then pushed to github.
+
+- 08:00 PM: Then added icons in the category section and conformed it. Added the @section call to category.js script and ran the project
+
+- 08:15 PM: Added the IAction result to the controller and added a view both named Upsert 
+
+- 08:20 PM: Created a partial view for EDIT | BACK, In views added a partial view for _CreateAndBackToListButton.cshtml _EditAndBackToListButton and code addition of the @model rezor statement.
+
+- 08:25 PM: Added the asp-actionto the Index.cshtml and ran the application. Created a new category, modified Upsert.cshtml and the title uses the @title variable, added @section to validate input on the client side of the test
+
+- 08:25 PM: Created an upsert post action method in the CategoryController.cs, Removed the db.SaveChanges() method in the CategoryRepository.cs and move the unitOfWork.Save() method with the return Redirect Toaction method. Checked for errdrs and tested whether the application can update and create  category.
+
+
+- 08:27 PM: Added the delete funcnality in category.js with including the onclick event to the delete function, Added the delete(url), Completed the steps ran the application everything is running as i wanted to i pushed it on git hub.
+
+
+- Start Date: 6th November 2023
+- 04:00 PM: Came back to check whether everything is good and i couldn't see the application running and i was freacked out after figuring it out for more than 1 hour i found that i just need to update the database. Thought this was an important thing to n ote t=for the future.
 
 
 
-
-
-
-
-
-
-
-
-- 04:30 PM
-- 04:30 PM
-- 04:30 PM
-- 04:30 PM
 
 
