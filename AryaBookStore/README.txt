@@ -135,7 +135,47 @@ To make it accessible by the project i registered it in Startup.cs
 - Start Date: 6th November 2023
 - 04:00 PM: Came back to check whether everything is good and i couldn't see the application running and i was freacked out after figuring it out for more than 1 hour i found that i just need to update the database. Thought this was an important thing to n ote t=for the future.
 
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+ASSIGNMENT-2 Part-III
+
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+- Start Date: 14th November 2023
+- 04:00 PM: Started to work on Cover Type Crud, Where i creader cover type with the same method i used in Category. Added CoverType.cs in models. Added CoverType to the repository where i added class, interface and in unitofwork and Iunitofwork.
+
+- 04:07 PM: Pushed CoverType to database. Created Migration and updated it.
 
 
+               --add-migration AddDefaultIdentityMigration
+
+Gpt an error:  Your target project 'AryaBookStore' doesn't match your migrations assembly 'AryaBooks.DataAccess'. Either change your target project or change your migrations assembly.
+Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("AryaBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
+Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
+
+Solved!!!
+
+- 04:25 PM: Performed CRUD operations on CoverType, Added CoverType to navbar, Then added CoverTypeController to Controller, Added a view named index to use DataTables and upsert that can be used for creating and updating covertype.
+
+- 04:55 PM: Started on product CRUD, added a new class named Product in .Models project, Added the code to build the blueprint of this class.
+
+- 05:00 PM: Added reference to the new Products piece to the database in ApplicationDbContext.cs  
+
+- 05:02 PM: 
+
+              --add-migration AddProductToDbMigration
+
+- 05:04 PM: In the SOE updated the Product class so Title, ISBN and Author are also required 
+
+- 05:05 PM: Created a new migration and updated the database
+
+              --add-migration AddValidationToProduct
 
 
+                               *(took a bit of a break)*
+
+- 05:55 PM: Added Product.cs to Repository, then added IProductRepository interface to IRepository folder. Added Product to UnitOfWork and IUnitOfWork
+
+- 06:15 PM: Checked everything and ready to push to github
