@@ -51,8 +51,11 @@ ASSIGNMENT-2 Part-II
 ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 
+# Assignment 2 -  Book Store Part-II
+*Author: Arya Patel*
+*Student ID: 0823713*
+*Start Date: 31st October 2023
 
-- Start Date: 31st October 2023
 - 04:30 PM: Came to the collage and started the second part. Crebated the sapce for coding and every thing is set to go
 
 - 04:56 PM: First i built the application to check wether everything is good and it was successful as no errors were found
@@ -142,20 +145,17 @@ ASSIGNMENT-2 Part-III
 
 ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
 ***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# Assignment 2 -  Book Store Part-III
+*Author: Arya Patel*
+*Student ID: 0823713*
+*Start Date: 14th November 2023
 
-- Start Date: 14th November 2023
 - 04:00 PM: Started to work on Cover Type Crud, Where i creader cover type with the same method i used in Category. Added CoverType.cs in models. Added CoverType to the repository where i added class, interface and in unitofwork and Iunitofwork.
 
 - 04:07 PM: Pushed CoverType to database. Created Migration and updated it.
 
 
-               --add-migration AddDefaultIdentityMigration
-
-Gpt an error:  Your target project 'AryaBookStore' doesn't match your migrations assembly 'AryaBooks.DataAccess'. Either change your target project or change your migrations assembly.
-Change your migrations assembly by using DbContextOptionsBuilder. E.g. options.UseSqlServer(connection, b => b.MigrationsAssembly("AryaBookStore")). By default, the migrations assembly is the assembly containing the DbContext.
-Change your target project to the migrations project by using the Package Manager Console's Default project drop-down list, or by executing "dotnet ef" from the directory containing the migrations project.
-
-Solved!!!
+               --add-migration AddDefaultIdentityMigration1
 
 - 04:25 PM: Performed CRUD operations on CoverType, Added CoverType to navbar, Then added CoverTypeController to Controller, Added a view named index to use DataTables and upsert that can be used for creating and updating covertype.
 
@@ -179,3 +179,45 @@ Solved!!!
 - 05:55 PM: Added Product.cs to Repository, then added IProductRepository interface to IRepository folder. Added Product to UnitOfWork and IUnitOfWork
 
 - 06:15 PM: Checked everything and ready to push to github
+
+
+
+                                 DONE FOR THE DAY
+
+
+
+- Start Date: 14th November 2023
+- 03:00 PM: Added Product controller in the Controller folder to perform the CRUD operations.
+
+- 03:05 PM: Added IWebHostEnviorment and its Using statements
+
+                            using Microsoft.AspNetCore.Hosting;
+                            using Microsoft.AspNetCore.Mvc;
+                            using Microsoft.AspNetCore.Mvc.Rendering;
+
+- 03:05 PM: Created ProductVM.cs in ViewModel folder, then selected list for Category and CoverType.
+
+- 03:15 PM: Modified the ProductVM class so it can be public and installed the microsoft features package. Modified the Product controller, then included the using statements to the ViewModels folder and Microsoft.AspNetCore.Mvc.Rendering
+                           
+                           --using Microsoft.AspNetCore.Mvc.Rendering;
+
+- 03:15 PM: Commented the Upsert post method as it was instructed and modified the API call to include Category and CoverType properties
+                            
+                            (includeProperties: "Category,CoverType");
+
+- 03:20 PM: Added an Index view, then copied the index.cshtml code from categories and edited it so it was functional for product, then added new properties for Title/ ISBN/ Price/ Author/ Category and then referenced it to product.js file 
+
+- 03:30 PM: Created the product.js copied the code from category.js and edited it for product, then in _Layout.cshtml linked the product to dropdown menu. Ran the application and everythig was working great without exceptions but can't create and update because there was no Upsert for now.
+
+- 03:45 PM: Created the Upsert for product copied the code from the assignment files. logged in the tiny.cloud by creating account and figuring it out on how to use it, once it was done copied the API key that was provided and added a function to validate the function and if it was left empty a sweet alert was displayed.
+
+- 04:07 PM:
+                       My API key: 93bt2v7qg4mgqqdsohnxmxalm89mphzgrfwq3rmxezx7brja
+
+- 04:15 PM: Ran the application and when i selected the new product there was an exception which came becauce there was an error in Upsert.cshtml and when i went through the whole code it was Category and not covertype when i fixed it it allowed me to create a new product and everything looked good
+
+- 04:45 PM: Added a new folder images in wwwroots, in the ProductController configured the product Upsert Post action method and uncommented the HTTP post method.
+
+                                *(took a bit of a break)*
+
+- 05:40 PM: Checked for errors, then ran the application and tested the application everythin is done and now it is time to pust it to github  
