@@ -186,7 +186,7 @@ ASSIGNMENT-2 Part-III
 
 
 
-- Start Date: 14th November 2023
+- Start Date: 16th November 2023
 - 03:00 PM: Added Product controller in the Controller folder to perform the CRUD operations.
 
 - 03:05 PM: Added IWebHostEnviorment and its Using statements
@@ -221,3 +221,35 @@ ASSIGNMENT-2 Part-III
                                 *(took a bit of a break)*
 
 - 05:40 PM: Checked for errors, then ran the application and tested the application everythin is done and now it is time to pust it to github  
+
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+
+ASSIGNMENT-2 Part-III
+
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+***************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************
+# Assignment 2 -  Book Store Part-IV
+*Author: Arya Patel*
+*Student ID: 0823713*
+*Start Date: 21st November 2023
+
+- 04:00 PM: Starting part IV of assignment-2 this is the last part of the assignment where we will be doing the coding stuff and maybe after this there will only be the submission as part-V
+
+- 04:15 PM: We had the github link for a book store that was not ours and it was provided by our sir so i started by cross checking each and every code and i figured out i was not a lot behind as my application was working earlier than starting this part of the assignment
+
+- 04:25 PM: Started my part by updating homecontroller.cs where i add the index code.
+
+- 04:30 PM: Edited the ProductController.cs then added the code in index.cshtml so products can be viewed 
+
+- 04:45 PM: Now i ran the application but there was an exception so i checked every code again and i figured that i was missing code in upsert.cshtml
+
+- 04:50 PM: After completing i checked again there was still an error i didnt upload the images in the wwwroots image folder after doing it the application was still not working
+
+                                          *(took a bit of a break)*
+
+- 05:00 PM: Now coming back and looking again i didnt create a product folder in image folder after doing it every thing was working and was good to go
+
+- 05:10 PM: Downloaded some images of book covers and added it to products>images>wwwroots so i can show it on the submission day
+
+- 05:15 PM: Built the project ran the application and every thing was goot to push to github..........
